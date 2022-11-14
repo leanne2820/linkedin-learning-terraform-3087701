@@ -3,8 +3,8 @@ module "dev" {
     source = "../modules/blog"
 
     environment = {
-     name = "prod"   
-        network_prefix = "10.2"
+      name = "prod"   
+      network_prefix = "10.2"
     }
 
     asg_min_size = 1
